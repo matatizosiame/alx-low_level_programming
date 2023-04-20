@@ -2,7 +2,6 @@
 /**
   *main - entry point
   *description: printing size of data type
-  *@sizing: size of c data type
   *return: always 0 (success)
   */
 int main(void)
