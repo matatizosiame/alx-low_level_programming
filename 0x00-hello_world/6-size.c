@@ -2,7 +2,7 @@
 /**
   *main - entry point
   *description: printing size of data type
-  *return: always 0 (success)
+  *Return: always 0 (success)
   */
 int main(void)
 {
