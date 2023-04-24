@@ -10,16 +10,15 @@ int main(void)
 	int m = 65;
 
 	while (n <= 122)
-		n++;
 	{
 		putchar(n);
+		n++;
 	}
-	while (m <= 65)
-		m++;
+	while (m <= 90)
 	{
 		putchar(m);
+		m++;
 	}
 	putchar('\n');
 	return (0);
 }
-
