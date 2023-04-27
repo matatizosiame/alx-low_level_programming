@@ -2,6 +2,7 @@
 /**
   *int print_sign - determines if the input number
   *greater, equal or less than zero
+  *
   *Return: 1 is greater than zero, zero is zero
   */
 int print_sign(int n)

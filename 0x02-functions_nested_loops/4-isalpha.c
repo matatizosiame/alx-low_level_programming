@@ -1,6 +1,7 @@
 #include "main.h"
 /**
   *_isalpha - shows 1 if the input is a
+  *letter another case shows 0
   *
   *Return: always 0 (success)
   */
