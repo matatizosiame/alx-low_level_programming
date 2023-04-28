@@ -1,15 +1,11 @@
 #include "main.h"
 /**
   *print_triangle - a function that prints a triangle
-  *size: is the size of the triangle
-  *Return: new line if size is 0 or less
+  *@size: is the size of the triangle
+  *Return: empty
   */
 void print_triangle(int size)
 {
-	if (size <= 0)
-	{
-		_putchar('\n');
-	}
 	int a;
 	int b;
 
@@ -19,6 +15,9 @@ void print_triangle(int size)
 		{
 			_putchar('#');
 		}
-		_putchar('\n');
+		if (size <= 0)
+		{
+			_putchar('\n');
+		}
 	}
 }
