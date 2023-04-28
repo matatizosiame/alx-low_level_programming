@@ -13,15 +13,15 @@ int main(void)
 	{
 		if (a % 3 == 0 && a % 5 == 0)
 		{
-			_putchar('FizzBuzz');
+			puts("FizzBuzz");
 		}
 		else if (a % 3 == 0)
 		{
-			_putchar('Fizz');
+			puts("Fizz");
 		}
 		else if (a % 5 == 0)
 		{
-			_putchar('Buzz');
+			puts("Buzz");
 		}
 		_putchar('\n');
 		return (0);
